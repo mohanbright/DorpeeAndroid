@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.droid.dorpee.stagging"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+    <!--
+                 The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+                 Google Maps Android API v2, but you must specify either coarse or fine
+                 location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- the following two permissions are required if you want to take photo in selector -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name="com.droid.dorpee.ui.baseClasses.AppApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_logo_icon"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.droid.dorpee.ui.auth.ForgotPasswordActivity" />
+        <activity android:name="com.droid.dorpee.ui.venuedashboard.venueItem.VeneueWorksapceActivity" />
+        <activity android:name="com.droid.dorpee.ui.venuedashboard.venueItem.VenueDetailActivity" />
+        <!--
+                     The API key for Google Maps-based APIs is defined as a string resource.
+                     (See the file "res/values/google_maps_api.xml").
+                     Note that the API key is linked to the encryption key used to sign the APK.
+                     You need a different API key for each encryption key, including the release key that is used to
+                     sign the APK for publishing.
+                     You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/maps_key" />
+
+        <activity
+            android:name="com.droid.dorpee.ui.search.map.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.AddCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.Maps"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.AddContact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venue.SuccessWorksapceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.booking.BookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.search.DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.droid.dorpee.ui.venue.AddWorkSpaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venue.EditWorkSpaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.AvailabilityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.BlockOutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.PaymentDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.StaticsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.MyVenueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.VenueBookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.SearchPrefrencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.TopUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.DorpeePlanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.AddressBookActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.BookingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.PersonalDashboardActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.auth.PersonalAccountRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venue.RegisterVenueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venue.EditVenueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.auth.ChooseCustomerTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.auth.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.venuedashboard.VenueDashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.auth.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.droid.dorpee.ui.auth.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.droid.dorpee.stagging.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.zfdang.multiple_images_selector.ImagesSelectorActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.droid.dorpee.ui.search.ui.checkin.ScannerActivity" />
+        <activity
+            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.PaymentMethodsActivity"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.PaymentFlowActivity"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.PaymentRelayActivity"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+            android:theme="@style/Stripe3DS2Theme" />
+        <activity
+            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity"
+            android:theme="@style/Stripe3DS2Theme" />
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteOverlay"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.droid.dorpee.stagging.com.squareup.picasso"
+            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.droid.dorpee.stagging.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true" />
+    </application>
+
+</manifest>

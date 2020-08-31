@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camera_temp_file_error">Temp File Error!</string>
+    <string name="msg_no_camera">Can\'t Launch Camera!</string>
+    <string name="selector_action_done">Done (%1$d/%2$d)</string>
+    <string name="selector_caption">Select Images</string>
+    <string name="selector_folder_all">All Images</string>
+    <string name="selector_permission_error">Permission rejected，failed to work properly！</string>
+    <string name="selector_preview">Preview</string>
+    <string name="selector_reach_max_image_hint">You have selected %d images already!</string>
+    <string name="stripe_3ds2_brand_amex">American Express</string>
+    <string name="stripe_3ds2_brand_discover">Discover</string>
+    <string name="stripe_3ds2_brand_mastercard">Mastercard</string>
+    <string name="stripe_3ds2_brand_visa">Visa</string>
+    <string name="stripe_3ds2_bzv_issuer_image_description">Issuer Image</string>
+    <string name="stripe_3ds2_bzv_payment_system_image_description">Payment System Image</string>
+    <string name="stripe_3ds2_czv_whitelist_no_label">No</string>
+    <string name="stripe_3ds2_czv_whitelist_yes_label">Yes</string>
+    <string name="stripe_3ds2_hzv_cancel_label">Cancel</string>
+    <string name="stripe_3ds2_hzv_header_label">Secure Checkout</string>
+    <string name="stripe_3ds2_processing">Processing\u2026</string>
+    <string name="tip_take_photo">Take Photo</string>
+</resources>

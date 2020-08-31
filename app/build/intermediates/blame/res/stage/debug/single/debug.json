@@ -1,0 +1,1562 @@
+[
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_payment_details.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_payment_details.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_add_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/add_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_workspace_availbility.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_workspace_availbility.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_upload_cloud.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/upload_cloud.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_slide_in_down.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/slide_in_down.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_from_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/from_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_spinner_background.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_to_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/to_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_venue_dash.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_venue_dash.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_venue_working_hours.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_venue_working_hours.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_search_selected.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_search_selected.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_autocomplete_list_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/autocomplete_list_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_register.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_venue_booking.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_venue_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_my_venue.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_my_venue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_check.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/check.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_repeat.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_repeat.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_moon_triangle.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/moon_triangle.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_add_workspace_type.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_add_workspace_type.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_group_teach.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/group_teach.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_conversesation.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/conversesation.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_arrow_drop.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_arrow_drop.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_contacts.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_avail_dialog_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/avail_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_fab_close.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/fab_close.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_edit.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_bounce_animation.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/bounce_animation.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_two_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/two_people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_actiasdsa.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/actiasdsa.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_eye_regular.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_eye_regular.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_moon_triangle.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/moon_triangle.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_marker_backgound.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/marker_backgound.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_two_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/two_people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_calendar.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_rocket.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/rocket.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_check.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/check.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_personal_account_register.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_personal_account_register.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_login.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_login.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_venue.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/venue.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_conversesation.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/conversesation.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_snackbar_exit_animation.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/snackbar_exit_animation.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_payment.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_payment.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_empty_check.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_empty_check.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_choose_customer_type.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_choose_customer_type.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_oval_orange.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/oval_orange.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_button_unpressed.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/button_unpressed.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_logo_icon.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_logo_icon.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_conversesation.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/conversesation.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_arrow_back.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_in_animation.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/in_animation.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_rotate_forward.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/rotate_forward.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_forgot_password.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_booking.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_group_teach.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/group_teach.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_logo.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_seekbar_style.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/seekbar_style.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_add.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_type_selctor.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/type_selctor.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_past.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_past.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_book_open_light.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_book_open_light.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_two_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/two_people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/generated/res/pngs/stage/debug/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_edit_basic_venue_info.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_edit_basic_venue_info.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_icon_woman.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/icon_woman.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_group_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/group_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_button_background.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/button_background.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_add_workspace.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_add_workspace.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_download.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/download.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_booking_step2.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking_step2.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_check.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_check.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_maps_search.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_maps_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_basic_venue_info.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_basic_venue_info.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_circle_view.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/circle_view.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_splash_anim_custom.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/splash_anim_custom.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_pulse_2.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/pulse_2.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_amenti_dash__item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/amenti_dash__item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_snackbar_animation.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/snackbar_animation.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_venue_dashboard.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_venue_dashboard.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_fab_open.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/fab_open.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_component_4.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/component_4.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_oval.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/oval.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_pulse.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/pulse.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ribbon_free_space.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ribbon_free_space.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_search_workspace.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_search_workspace.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_bonus.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_bonus.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_star.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_star.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_circle_blue.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/circle_blue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_venue.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/venue.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_out_animation.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/out_animation.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_check.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/check.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_success.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/success.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_to_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/to_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_nothing.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/nothing.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_venue.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/venue.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_environment_dash_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/environment_dash_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_customer.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/customer.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_invite_contacts.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_invite_contacts.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_icon_woman.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/icon_woman.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_amenities_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/amenities_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_button_unpressed.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/button_unpressed.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_from_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/from_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_upload_cloud.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/upload_cloud.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_radar_marker.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/radar_marker.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_download.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/download.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_setting.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_setting.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_upcoming.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_upcoming.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_popup_contact.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/popup_contact.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_moon_triangle.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/moon_triangle.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_logo.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_success.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/success.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_environment_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/environment_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_logo.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_booking_step1.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking_step1.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_block_out.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_block_out.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_venue_past.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_venue_past.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_week_selctor.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/week_selctor.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_booking_venue.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking_venue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_tick_selected.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_tick_selected.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_list_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_switch_thumb.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_monk.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/monk.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_rotate_backward.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/rotate_backward.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_blockout_time.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_blockout_time.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/generated/res/pngs/stage/debug/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_slide_out_down.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_add_contact.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_add_contact.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_oval.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/oval.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_radar_markerview.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/radar_markerview.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_amenitie_item_search.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/amenitie_item_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_group_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/group_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_bounce_animation_200.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/bounce_animation_200.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_exit_to_left.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/exit_to_left.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_borderd_bg.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/borderd_bg.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_close.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_percent.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/percent.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_add_team_dialog.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/add_team_dialog.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_upload_cloud.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/upload_cloud.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_slide_in_bottom.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_placeholder.jpeg.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/placeholder.jpeg"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_moon_triangle.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/moon_triangle.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_address_book.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_address_book.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_slide_up.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_teams_invite.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_teams_invite.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_to_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/to_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_diamond.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/diamond.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_hero_banner.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/hero_banner.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/xml_provider_paths.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_customer.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/customer.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/generated/res/pngs/stage/debug/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_conversesation.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/conversesation.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_component_4.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/component_4.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_component_4.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/component_4.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_venue_details.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_venue_details.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_moon_triangle.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/moon_triangle.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_tab_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/tab_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_add_work_space.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_add_work_space.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_component_4.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/component_4.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_icon_man.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/icon_man.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_teams.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_teams.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_arrow_drop_up.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_oval.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/oval.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_bounce.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/bounce.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_enter_from_right.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/enter_from_right.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_two_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/two_people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_border_round.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/border_round.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_dorpee_plan.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_dorpee_plan.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_venue.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/venue.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_btn_close.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/btn_close.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_search.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_register_venue.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_register_venue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_monk.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/monk.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_cell_shape.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/cell_shape.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_top_up.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_top_up.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_edit_work_space.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_edit_work_space.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_from_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/from_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_oval.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/oval.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_hero_banner.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/hero_banner.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_my_venue.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_my_venue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_search_result.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_search_result.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_topup_credits.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_topup_credits.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_exit_to_right.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/exit_to_right.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_dashed_line.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/dashed_line.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_personal_dashboard.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_personal_dashboard.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_diamond.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/diamond.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_week_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/week_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_hero_banner.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/hero_banner.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_moon_triangle.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/moon_triangle.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_add_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/add_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_from_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/from_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_marker2.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/marker2.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_pulse_1.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/pulse_1.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_chart.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_chart.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_dorpee_dark.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_dorpee_dark.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_search_prefrences.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_search_prefrences.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_rocket.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/rocket.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_conversesation.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/conversesation.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_diamond.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/diamond.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_payment.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_payment.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_group_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/group_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_search.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_layout_dialog.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/layout_dialog.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_types_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/types_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_check.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/check.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_seekbar_progress.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/seekbar_progress.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_venue.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/venue.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_map.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_map.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_success.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/success.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_user_friends.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_user_friends.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_settings.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_logo.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_square_btn.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/square_btn.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_group_teach.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/group_teach.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_search_result.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_search_result.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_custom_marker_view.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/custom_marker_view.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_monk.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/monk.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_success_worksapce.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_success_worksapce.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_booking_step3.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking_step3.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_success.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/success.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/raw_spalsh_giph.gif.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/raw/spalsh_giph.gif"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_download.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/download.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_customer.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/customer.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_arrow_forward.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_arrow_forward.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_logo.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_success.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/success.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_availabilty_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/availabilty_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_fade_out.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_infowindow_bg.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/infowindow_bg.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_hero_banner.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/hero_banner.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_booking_drawble.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/booking_drawble.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_block_out_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/block_out_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_from_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/from_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_checkin.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_checkin.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_upload_cloud.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/upload_cloud.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_component_4.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/component_4.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_insert_photo.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_insert_photo.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_dorpee_black.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_dorpee_black.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_gray_background.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/gray_background.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_veneue_worksapce.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_veneue_worksapce.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_to_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/to_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_dashboard.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_icon_man.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/icon_man.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_pink_border_round.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/pink_border_round.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_square_btn_blue.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/square_btn_blue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_upload_cloud.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/upload_cloud.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_download.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/download.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_diamond_resized.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/diamond_resized.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_plan.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_plan.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_marker_info_window.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/marker_info_window.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_fade_in.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_venue_today.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_venue_today.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_enter_from_left.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/enter_from_left.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_advance_search.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_advance_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_availvilty_dialog.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/availvilty_dialog.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/generated/res/pngs/stage/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/generated/res/pngs/stage/debug/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_search_prefrences.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_search_prefrences.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_seekbar_thumb.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/seekbar_thumb.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_location.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_location.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_hero_banner.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/hero_banner.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_check.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/check.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_add_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/add_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_customer.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/customer.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_env_type_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/env_type_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_oval.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/oval.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_personal_dash.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_personal_dash.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_transaction.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_transaction.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_customer.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/customer.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_diamond.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/diamond.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_rocket.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/rocket.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_group_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/group_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/generated/res/pngs/stage/debug/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_oval.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/oval.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_switch_track.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/switch_track.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_past_booking.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_past_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_icon_edit.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_icon_edit.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_group_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/group_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_contancts.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_contancts.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_light_blue_background.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/light_blue_background.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_progressbar_bg.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/progressbar_bg.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_upload_cloud.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/upload_cloud.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_rocket.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/rocket.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_rocket.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/rocket.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_download.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/download.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_venue_name.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_venue_name.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_conversesation.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/conversesation.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_space_type_dash_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/space_type_dash_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_hero_banner.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/hero_banner.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_clock_light.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_clock_light.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/generated/res/pngs/stage/debug/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_contancts_invite.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_contancts_invite.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_group_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/group_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_gray_all_background.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/gray_all_background.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_venue.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/venue.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_blue_all_background.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/blue_all_background.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_check.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/check.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_success.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/success.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_group_teach.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/group_teach.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_tick.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_tick.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_group_teach.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/group_teach.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_checkbox.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/checkbox.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_booking.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_rocket.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/rocket.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_search.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_monk.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/monk.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_circle_chart.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/circle_chart.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_monk.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/monk.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_interest_item.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/interest_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_crdits.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_crdits.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_diamond.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/diamond.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_venue_detail.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_venue_detail.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_venue_amenitie_.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_venue_amenitie_.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_add_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/add_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_group_teach.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/group_teach.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_to_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/to_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxxhdpi_from_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxxhdpi/from_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_credit_card_black_24dp.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_credit_card_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_invite_teams.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_invite_teams.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_interest_selctor.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/interest_selctor.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-hdpi_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-hdpi/people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_bottom_color.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/bottom_color.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_upcoming_booking.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_upcoming_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_credit.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_credit.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_rectangular_view.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/rectangular_view.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_specify_workspace.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_specify_workspace.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_bookings.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_bookings.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_monk.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/monk.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_download.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/download.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_calendar_light.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_calendar_light.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_customer.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/customer.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_teams.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_teams.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_personal_dashboard.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_personal_dashboard.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_profile_holder.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/profile_holder.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_fragment_privacy.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_privacy.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_checkin_drawble.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/checkin_drawble.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_add_card.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_add_card.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_slide_in_up.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_statics.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_statics.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_bounce_animation_1.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/bounce_animation_1.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_blue_btn_background.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/blue_btn_background.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_slide_out_up.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/slide_out_up.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_add_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/add_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_availbilty.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_availbilty.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_seekbar_shadow.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/seekbar_shadow.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_dorpee.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_dorpee.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xxhdpi_add_workspace.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xxhdpi/add_workspace.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_light_background.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/light_background.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-xhdpi_component_4.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-xhdpi/component_4.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_two_people.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/two_people.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_scanner.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_scanner.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_environment_selctor.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/environment_selctor.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-ldpi_logo.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-ldpi/logo.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_diamond.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/diamond.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_activity_maps.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/anim_slide_out_top.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/anim/slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_search_drawble.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/search_drawble.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable-mdpi_to_time.png.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable-mdpi/to_time.png"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_ic_shield.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_bottom_text_colotr_drawble.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/bottom_text_colotr_drawble.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/layout_item_table_layout.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_table_layout.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_dottedline.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/dottedline.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/res/merged/stage/debug/drawable_circle_tab.xml.flat",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/drawable/circle_tab.xml"
+    }
+]

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.droid.dorpee",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "app-live-debug.apk",
+        "fullName": "liveDebug",
+        "baseName": "live-debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.droid.dorpee",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

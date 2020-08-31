@@ -1,0 +1,520 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.droid.dorpee.stagging"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+10    <!--
+11                 The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12                 Google Maps Android API v2, but you must specify either coarse or fine
+13                 location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:9:5-79
+15-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:10:5-67
+16-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- the following two permissions are required if you want to take photo in selector -->
+17-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:11:5-80
+17-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:12:5-65
+18-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:12:22-62
+19    <uses-permission android:name="android.hardware.camera" />
+19-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:13:5-63
+19-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:13:22-60
+20    <uses-permission android:name="android.hardware.camera.autofocus" />
+20-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:14:5-73
+20-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:14:22-70
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:15:5-81
+21-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+22-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:16:5-98
+22-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:16:22-95
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:17:5-79
+23-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:17:22-76
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:26:5-66
+24-->[com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:26:22-63
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->[com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:10:5-76
+25-->[com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:10:22-73
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+29        android:required="true" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+29-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+30    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+31    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+31-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:8:3-74
+31-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:8:20-72
+32
+33    <application
+33-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:19:5-142:19
+34        android:name="com.droid.dorpee.ui.baseClasses.AppApplication"
+34-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:20:9-54
+35        android:allowBackup="true"
+35-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:21:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:22:9-43
+39        android:label="@string/app_name"
+39-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:23:9-41
+40        android:logo="@drawable/ic_logo_icon"
+40-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:24:9-46
+41        android:requestLegacyExternalStorage="true"
+41-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:25:9-52
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:26:9-54
+43        android:screenOrientation="portrait"
+43-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:28:9-45
+44        android:supportsRtl="true"
+44-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:27:9-35
+45        android:testOnly="true"
+46        android:theme="@style/AppTheme"
+46-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:29:9-40
+47        android:usesCleartextTraffic="true" >
+47-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:30:9-44
+48        <activity android:name="com.droid.dorpee.ui.auth.ForgotPasswordActivity" />
+48-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:31:9-84
+48-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:31:19-81
+49        <activity android:name="com.droid.dorpee.ui.venuedashboard.venueItem.VeneueWorksapceActivity" />
+49-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:32:9-89
+49-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:32:19-86
+50        <activity android:name="com.droid.dorpee.ui.venuedashboard.venueItem.VenueDetailActivity" />
+50-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:33:9-85
+50-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:33:19-82
+51        <!--
+52                     The API key for Google Maps-based APIs is defined as a string resource.
+53                     (See the file "res/values/google_maps_api.xml").
+54                     Note that the API key is linked to the encryption key used to sign the APK.
+55                     You need a different API key for each encryption key, including the release key that is used to
+56                     sign the APK for publishing.
+57                     You can define the keys for the debug and release targets in src/debug/ and src/release/.
+58        -->
+59        <meta-data
+59-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:42:9-44:48
+60            android:name="com.google.android.geo.API_KEY"
+60-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:43:13-58
+61            android:value="@string/maps_key" />
+61-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:44:13-45
+62
+63        <activity
+63-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:46:9-49:59
+64            android:name="com.droid.dorpee.ui.search.map.MapsActivity"
+64-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:47:13-71
+65            android:label="@string/title_activity_maps"
+65-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:49:13-56
+66            android:screenOrientation="portrait" />
+66-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:48:13-49
+67        <activity
+67-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:51:9-53:51
+68            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.AddCardActivity"
+68-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:52:13-94
+69            android:screenOrientation="portrait" />
+69-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:53:13-49
+70        <activity
+70-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:54:9-57:59
+71            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.Maps"
+71-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:55:13-67
+72            android:label="@string/title_activity_maps"
+72-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:57:13-56
+73            android:screenOrientation="portrait" />
+73-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:56:13-49
+74        <activity
+74-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:58:9-59:51
+75            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.AddContact"
+75-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:58:19-79
+76            android:screenOrientation="portrait" />
+76-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:59:13-49
+77        <activity
+77-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:60:9-61:51
+78            android:name="com.droid.dorpee.ui.venue.SuccessWorksapceActivity"
+78-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:60:19-68
+79            android:screenOrientation="portrait" />
+79-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:61:13-49
+80        <activity
+80-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:62:9-63:51
+81            android:name="com.droid.dorpee.ui.booking.BookingActivity"
+81-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:62:19-61
+82            android:screenOrientation="portrait" />
+82-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:63:13-49
+83        <activity
+83-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:64:9-69:20
+84            android:name="com.droid.dorpee.ui.search.DashboardActivity"
+84-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:65:13-56
+85            android:label="@string/title_activity_dashboard"
+85-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:67:13-61
+86            android:screenOrientation="portrait" >
+86-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:66:13-49
+87        </activity>
+88        <activity
+88-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:70:9-71:51
+89            android:name="com.droid.dorpee.ui.venue.AddWorkSpaceActivity"
+89-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:70:19-64
+90            android:screenOrientation="portrait" />
+90-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:71:13-49
+91        <activity
+91-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:72:9-73:51
+92            android:name="com.droid.dorpee.ui.venue.EditWorkSpaceActivity"
+92-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:72:19-65
+93            android:screenOrientation="portrait" />
+93-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:73:13-49
+94        <activity
+94-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:74:9-75:51
+95            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.AvailabilityActivity"
+95-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:74:19-83
+96            android:screenOrientation="portrait" />
+96-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:75:13-49
+97        <activity
+97-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:76:9-77:51
+98            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.BlockOutActivity"
+98-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:76:19-79
+99            android:screenOrientation="portrait" />
+99-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:77:13-49
+100        <activity
+100-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:78:9-79:51
+101            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.PaymentDetailsActivity"
+101-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:78:19-85
+102            android:screenOrientation="portrait" />
+102-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:79:13-49
+103        <activity
+103-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:80:9-81:51
+104            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.StaticsActivity"
+104-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:80:19-78
+105            android:screenOrientation="portrait" />
+105-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:81:13-49
+106        <activity
+106-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:82:9-83:51
+107            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.MyVenueActivity"
+107-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:82:19-78
+108            android:screenOrientation="portrait" />
+108-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:83:13-49
+109        <activity
+109-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:84:9-85:51
+110            android:name="com.droid.dorpee.ui.venuedashboard.venueItem.VenueBookingActivity"
+110-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:84:19-83
+111            android:screenOrientation="portrait" />
+111-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:85:13-49
+112        <activity
+112-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:86:9-87:51
+113            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.SettingsActivity"
+113-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:86:19-85
+114            android:screenOrientation="portrait" />
+114-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:87:13-49
+115        <activity
+115-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:88:9-89:51
+116            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.SearchPrefrencesActivity"
+116-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:88:19-93
+117            android:screenOrientation="portrait" />
+117-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:89:13-49
+118        <activity
+118-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:90:9-91:51
+119            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.TopUpActivity"
+119-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:90:19-82
+120            android:screenOrientation="portrait" />
+120-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:91:13-49
+121        <activity
+121-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:92:9-93:51
+122            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.DorpeePlanActivity"
+122-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:92:19-87
+123            android:screenOrientation="portrait" />
+123-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:93:13-49
+124        <activity
+124-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:94:9-95:51
+125            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.AddressBookActivity"
+125-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:94:19-88
+126            android:screenOrientation="portrait" />
+126-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:95:13-49
+127        <activity
+127-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:96:9-97:51
+128            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.BookingsActivity"
+128-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:96:19-85
+129            android:screenOrientation="portrait" />
+129-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:97:13-49
+130        <activity
+130-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:98:9-100:54
+131            android:name="com.droid.dorpee.ui.personaldashboard.PersonalDashboardActivity"
+131-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:98:19-81
+132            android:launchMode="singleTask"
+132-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:100:21-52
+133            android:screenOrientation="portrait" />
+133-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:99:13-49
+134        <activity
+134-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:101:9-102:51
+135            android:name="com.droid.dorpee.ui.auth.PersonalAccountRegisterActivity"
+135-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:101:19-74
+136            android:screenOrientation="portrait" />
+136-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:102:13-49
+137        <activity
+137-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:103:9-104:51
+138            android:name="com.droid.dorpee.ui.venue.RegisterVenueActivity"
+138-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:103:19-65
+139            android:screenOrientation="portrait" />
+139-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:104:13-49
+140        <activity
+140-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:105:9-106:51
+141            android:name="com.droid.dorpee.ui.venue.EditVenueActivity"
+141-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:105:19-61
+142            android:screenOrientation="portrait" />
+142-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:106:13-49
+143        <activity
+143-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:107:9-108:51
+144            android:name="com.droid.dorpee.ui.auth.ChooseCustomerTypeActivity"
+144-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:107:19-69
+145            android:screenOrientation="portrait" />
+145-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:108:13-49
+146        <activity
+146-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:109:9-110:51
+147            android:name="com.droid.dorpee.ui.auth.RegisterActivity"
+147-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:109:19-59
+148            android:screenOrientation="portrait" />
+148-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:110:13-49
+149        <activity
+149-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:111:9-113:15
+150            android:name="com.droid.dorpee.ui.venuedashboard.VenueDashboardActivity"
+150-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:111:19-75
+151            android:screenOrientation="portrait" />
+151-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:112:13-49
+152        <activity
+152-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:114:9-115:51
+153            android:name="com.droid.dorpee.ui.auth.LoginActivity"
+153-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:114:19-56
+154            android:screenOrientation="portrait" />
+154-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:115:13-49
+155        <activity
+155-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:117:9-124:20
+156            android:name="com.droid.dorpee.ui.auth.SplashActivity"
+156-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:117:19-57
+157            android:screenOrientation="portrait" >
+157-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:118:13-49
+158            <intent-filter>
+158-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:119:13-123:29
+159                <action android:name="android.intent.action.MAIN" />
+159-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:120:17-69
+159-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:120:25-66
+160
+161                <category android:name="android.intent.category.LAUNCHER" />
+161-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:122:17-77
+161-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:122:27-74
+162            </intent-filter>
+163        </activity>
+164
+165        <provider
+166            android:name="androidx.core.content.FileProvider"
+166-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:127:13-62
+167            android:authorities="com.droid.dorpee.stagging.provider"
+167-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:128:13-60
+168            android:exported="false"
+168-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:129:13-37
+169            android:grantUriPermissions="true" >
+169-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:130:13-47
+170            <meta-data
+170-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:131:13-133:58
+171                android:name="android.support.FILE_PROVIDER_PATHS"
+171-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:132:17-67
+172                android:resource="@xml/provider_paths" />
+172-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:133:17-55
+173        </provider>
+174
+175        <activity
+175-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:136:9-140:51
+176            android:name="com.zfdang.multiple_images_selector.ImagesSelectorActivity"
+176-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:137:13-86
+177            android:configChanges="orientation|screenSize"
+177-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:138:13-59
+178            android:hardwareAccelerated="false"
+178-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:140:13-48
+179            android:screenOrientation="portrait" />
+179-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:139:13-49
+180        <activity android:name="com.droid.dorpee.ui.search.ui.checkin.ScannerActivity" />
+180-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:141:9-74
+180-->/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:141:19-71
+181        <activity
+181-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:12:9-14:57
+182            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+182-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:13:13-76
+183            android:theme="@style/StripeDefaultTheme" />
+183-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:14:13-54
+184        <activity
+184-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:15:9-17:57
+185            android:name="com.stripe.android.view.PaymentMethodsActivity"
+185-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:16:13-74
+186            android:theme="@style/StripeDefaultTheme" />
+186-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:17:13-54
+187        <activity
+187-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:18:9-20:57
+188            android:name="com.stripe.android.view.PaymentFlowActivity"
+188-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:19:13-71
+189            android:theme="@style/StripeDefaultTheme" />
+189-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:20:13-54
+190        <activity
+190-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:21:9-23:57
+191            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+191-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:22:13-78
+192            android:theme="@style/StripeDefaultTheme" />
+192-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:23:13-54
+193        <activity
+193-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:24:9-26:57
+194            android:name="com.stripe.android.view.PaymentRelayActivity"
+194-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:25:13-72
+195            android:theme="@style/StripeDefaultTheme" />
+195-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:26:13-54
+196        <activity
+196-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:27:9-29:57
+197            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+197-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:28:13-80
+198            android:theme="@style/StripeDefaultTheme" />
+198-->[com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:29:13-54
+199        <activity
+199-->[com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:12:9-14:54
+200            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+200-->[com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:13:13-81
+201            android:theme="@style/Stripe3DS2Theme" />
+201-->[com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:14:13-51
+202        <activity
+202-->[com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:15:9-17:54
+203            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity"
+203-->[com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:16:13-95
+204            android:theme="@style/Stripe3DS2Theme" />
+204-->[com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:17:13-51
+205        <activity
+205-->[com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+206            android:name="com.karumi.dexter.DexterActivity"
+206-->[com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+207            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+207-->[com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+208        <activity
+208-->[com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:14:9-20:20
+209            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+209-->[com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:15:13-91
+210            android:exported="false"
+210-->[com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:16:13-37
+211            android:label="@string/places_autocomplete_label"
+211-->[com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:17:13-62
+212            android:theme="@style/PlacesAutocompleteOverlay"
+212-->[com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:18:13-61
+213            android:windowSoftInputMode="adjustResize" >
+213-->[com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:19:13-55
+214        </activity>
+215
+216        <provider
+216-->[com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+217            android:name="com.squareup.picasso.PicassoProvider"
+217-->[com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+218            android:authorities="com.droid.dorpee.stagging.com.squareup.picasso"
+218-->[com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+219            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+219-->[com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+220        <uses-library
+220-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+221            android:name="org.apache.http.legacy"
+221-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+222            android:required="false" />
+222-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+223
+224        <activity
+224-->[com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+225            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+225-->[com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+226            android:exported="false"
+226-->[com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+227            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+227-->[com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+228
+229        <meta-data
+229-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+230            android:name="com.google.android.gms.version"
+230-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+231            android:value="@integer/google_play_services_version" />
+231-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+232
+233        <service
+233-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
+234            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+234-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
+235            android:exported="false" >
+235-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
+236            <meta-data
+236-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
+237                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+237-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
+238                android:value="cct" />
+238-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
+239        </service>
+240        <service
+240-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
+241            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+241-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
+242            android:exported="false"
+242-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
+243            android:permission="android.permission.BIND_JOB_SERVICE" >
+243-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
+244        </service>
+245
+246        <receiver
+246-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
+247            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+247-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
+248            android:exported="false" />
+248-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
+249
+250        <provider
+250-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+251            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+251-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+252            android:authorities="com.droid.dorpee.stagging.lifecycle-process"
+252-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+253            android:exported="false"
+253-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+254            android:multiprocess="true" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+254-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+255        <activity
+255-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:5-271
+256            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+256-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:15-102
+257            android:enabled="false"
+257-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:103-126
+258            android:exported="false"
+258-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:127-151
+259            android:launchMode="singleInstance"
+259-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:204-239
+260            android:process=":playcore_missing_splits_activity"
+260-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:152-203
+261            android:stateNotNeeded="true" />
+261-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:240-269
+262        <activity
+262-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:5-226
+263            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+263-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:15-95
+264            android:enabled="false"
+264-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:96-119
+265            android:exported="false"
+265-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:120-144
+266            android:stateNotNeeded="true"
+266-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:145-174
+267            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+267-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:175-224
+268        <service
+268-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:16:5-145
+269            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+269-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:16:14-95
+270            android:enabled="false"
+270-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:16:96-119
+271            android:exported="true" />
+271-->[com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:16:120-143
+272    </application>
+273
+274</manifest>

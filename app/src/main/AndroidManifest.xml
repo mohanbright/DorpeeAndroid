@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.droid.dorpee">
+    <!--
+                 The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+                 Google Maps Android API v2, but you must specify either coarse or fine
+                 location permissions for the 'MyLocation' functionality.
+            -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- the following two permissions are required if you want to take photo in selector -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ui.baseClasses.AppApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_logo_icon"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.droid.dorpee.ui.auth.ForgotPasswordActivity" />
+        <activity android:name=".ui.venuedashboard.venueItem.VeneueWorksapceActivity" />
+        <activity android:name=".ui.venuedashboard.venueItem.VenueDetailActivity" />
+        <!--
+                     The API key for Google Maps-based APIs is defined as a string resource.
+                     (See the file "res/values/google_maps_api.xml").
+                     Note that the API key is linked to the encryption key used to sign the APK.
+                     You need a different API key for each encryption key, including the release key that is used to
+                     sign the APK for publishing.
+                     You can define the keys for the debug and release targets in src/debug/ and src/release/.
+                -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/maps_key" />
+
+        <activity
+            android:name="com.droid.dorpee.ui.search.map.MapsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_maps" />
+
+        <activity
+            android:name="com.droid.dorpee.ui.personaldashboard.personalItem.AddCardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.personaldashboard.personalItem.Maps"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".ui.personaldashboard.personalItem.AddContact"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venue.SuccessWorksapceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.booking.BookingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.search.DashboardActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_dashboard">
+            <nav-graph android:value="@navigation/mobile_navigation" />
+        </activity>
+        <activity android:name=".ui.venue.AddWorkSpaceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venue.EditWorkSpaceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venuedashboard.venueItem.AvailabilityActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venuedashboard.venueItem.BlockOutActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venuedashboard.venueItem.PaymentDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venuedashboard.venueItem.StaticsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venuedashboard.venueItem.MyVenueActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venuedashboard.venueItem.VenueBookingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.personaldashboard.personalItem.SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.personaldashboard.personalItem.SearchPrefrencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.personaldashboard.personalItem.TopUpActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.personaldashboard.personalItem.DorpeePlanActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.personaldashboard.personalItem.AddressBookActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.personaldashboard.personalItem.BookingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.personaldashboard.PersonalDashboardActivity"
+            android:screenOrientation="portrait"
+                    android:launchMode="singleTask"/>
+        <activity android:name=".ui.auth.PersonalAccountRegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venue.RegisterVenueActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venue.EditVenueActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.auth.ChooseCustomerTypeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.auth.RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.venuedashboard.VenueDashboardActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.auth.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.auth.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.zfdang.multiple_images_selector.ImagesSelectorActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:hardwareAccelerated="false" />
+        <activity android:name=".ui.search.ui.checkin.ScannerActivity" />
+    </application>
+</manifest>
+
+

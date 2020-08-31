@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.droid.dorpee.stagging",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "app-stage-debug.apk",
+        "fullName": "stageDebug",
+        "baseName": "stage-debug",
+        "dirName": ""
+      },
+      "path": "resources-stageDebug.ap_",
+      "properties": {
+        "packageId": "com.droid.dorpee.stagging",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

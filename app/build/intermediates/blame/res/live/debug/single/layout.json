@@ -1,0 +1,422 @@
+[
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_invite_contacts.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_invite_contacts.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_register.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_venue_dashboard.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_venue_dashboard.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_register_venue.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_register_venue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/interest_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/interest_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_veneue_worksapce.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_veneue_worksapce.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_dorpee_plan.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_dorpee_plan.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_venue_booking.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_venue_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_booking.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/space_type_dash_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/space_type_dash_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_payment.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_payment.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_add_workspace_type.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_add_workspace_type.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/availvilty_dialog.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/availvilty_dialog.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_workspace_availbility.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_workspace_availbility.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/environment_dash_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/environment_dash_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_success_worksapce.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_success_worksapce.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_search_result.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_search_result.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_teams.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_teams.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_personal_account_register.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_personal_account_register.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_teams.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_teams.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/amenities_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/amenities_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_my_venue.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_my_venue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_venue_detail.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_venue_detail.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/custom_marker_view.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/custom_marker_view.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_past_booking.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_past_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_add_work_space.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_add_work_space.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_forgot_password.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_invite_teams.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_invite_teams.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_statics.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_statics.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_search_prefrences.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_search_prefrences.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_booking_venue.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking_venue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_settings.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_contancts_invite.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_contancts_invite.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_contancts.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_contancts.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/actiasdsa.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/actiasdsa.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_address_book.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_address_book.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_login.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_teams_invite.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_teams_invite.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_venue_details.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_venue_details.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_add_contact.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_add_contact.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_payment_details.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_payment_details.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/layout_dialog.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/layout_dialog.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/marker_info_window.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/marker_info_window.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_booking.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_maps.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_my_venue.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_my_venue.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/list_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/block_out_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/block_out_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_booking_step3.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking_step3.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/radar_markerview.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/radar_markerview.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_search_result.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_search_result.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_add_workspace.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_add_workspace.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_availbilty.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_availbilty.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_payment.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_payment.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_booking_step2.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking_step2.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_past.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_past.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_scanner.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_scanner.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_basic_venue_info.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_basic_venue_info.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/autocomplete_list_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/autocomplete_list_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_specify_workspace.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_specify_workspace.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_plan.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_plan.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_credit.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_credit.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/types_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/types_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_venue_dash.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_venue_dash.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_booking_step1.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_booking_step1.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_personal_dashboard.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_personal_dashboard.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_search_workspace.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_search_workspace.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/environment_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/environment_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_checkin.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_checkin.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_venue_past.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_venue_past.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_venue_amenitie_.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_venue_amenitie_.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_upcoming_booking.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_upcoming_booking.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/add_team_dialog.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/add_team_dialog.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_venue_today.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_venue_today.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_top_up.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_top_up.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_dashboard.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_choose_customer_type.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_choose_customer_type.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/tab_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/tab_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_block_out.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_block_out.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_blockout_time.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_blockout_time.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_add_card.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_add_card.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_venue_working_hours.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_venue_working_hours.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_advance_search.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_advance_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/popup_contact.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/popup_contact.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_search.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_maps_search.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_maps_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_personal_dashboard.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_personal_dashboard.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/avail_dialog_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/avail_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_bookings.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_bookings.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/availabilty_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/availabilty_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_privacy.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_privacy.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_transaction.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_transaction.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_table_layout.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_table_layout.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_search.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/item_upcoming.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/item_upcoming.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_personal_dash.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_personal_dash.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/env_type_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/env_type_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_bonus.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_bonus.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/amenitie_item_search.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/amenitie_item_search.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/activity_topup_credits.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/activity_topup_credits.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/fragment_contacts.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/week_item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/week_item.xml"
+    },
+    {
+        "merged": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/stripped.dir/layout/amenti_dash__item.xml",
+        "source": "/Users/brightdev/StudioWorkspace/Dorpee/app/src/main/res/layout/amenti_dash__item.xml"
+    }
+]

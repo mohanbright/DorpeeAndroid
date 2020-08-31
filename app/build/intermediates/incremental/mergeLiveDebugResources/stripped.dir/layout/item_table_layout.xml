@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="0dp"
+            android:lines="2"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:textAlignment="center"
+            android:paddingVertical="@dimen/_5sdp"
+            android:text="Date"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@id/tv_type"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="0dp"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:paddingVertical="@dimen/_5sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:lines="2"
+            android:text="Visa"
+            android:background="@drawable/cell_shape"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/tv_amount"
+            app:layout_constraintBottom_toBottomOf="@id/tv_time"
+            app:layout_constraintStart_toEndOf="@id/tv_time"
+            app:layout_constraintTop_toTopOf="@id/tv_time"
+            app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="0dp"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:paddingVertical="@dimen/_5sdp"
+            android:lines="2"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="120.0"
+            android:background="@drawable/cell_shape"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/tv_type"
+            app:layout_constraintStart_toEndOf="@id/tv_type"
+            app:layout_constraintTop_toTopOf="@id/tv_type"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

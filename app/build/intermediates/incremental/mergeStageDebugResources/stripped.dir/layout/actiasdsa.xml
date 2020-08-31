@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <FrameLayout
+            android:id="@+id/firstl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:id="@+id/firstRemoveImg"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_gravity="end"
+                android:visibility="gone"
+                android:tint="@color/colorError"
+                app:srcCompat="@drawable/ic_close" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_insert_photo" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/secondl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_weight=".5"
+            app:layout_constraintStart_toEndOf="@+id/firstl"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:id="@+id/secondRemoveImg"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_gravity="end"
+                android:visibility="gone"
+                android:tint="@color/colorError"
+                app:srcCompat="@drawable/ic_close" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_insert_photo" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/thirdl"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/thirdRemoveImg"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_gravity="end"
+                android:visibility="gone"
+                android:tint="@color/colorError"
+                app:srcCompat="@drawable/ic_close" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_insert_photo" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fourthl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            >
+
+            <ImageView
+                android:id="@+id/fourthRemoveImg"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_gravity="end"
+                android:visibility="gone"
+                android:tint="@color/colorError"
+                app:srcCompat="@drawable/ic_close" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_insert_photo" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+

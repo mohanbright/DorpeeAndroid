@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/brightdev/StudioWorkspace/Dorpee/app/build/intermediates/incremental/mergeLiveDebugResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/brightdev/.gradle/caches/transforms-2/files-2.1/8076a693e97c70674e8b9e6a14efe349/jetified-multiple-images-selector-1.1.5/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,253,312,371,470,523,618",
+                        "endColumns": "67,63,65,58,58,98,52,94,53",
+                        "endOffsets": "118,182,248,307,366,465,518,613,667"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,253,312,371,470,523,1393",
+                        "endColumns": "67,63,65,58,58,98,52,94,53",
+                        "endOffsets": "118,182,248,307,366,465,518,613,1442"
+                    }
+                },
+                {
+                    "source": "/Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,393,491,557,625,689,762",
+                        "endColumns": "67,63,67,55,81,97,65,67,63,72,67",
+                        "endOffsets": "118,182,250,306,388,486,552,620,684,757,825"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "618,686,750,818,874,956,1054,1120,1188,1252,1325",
+                        "endColumns": "67,63,67,55,81,97,65,67,63,72,67",
+                        "endOffsets": "681,745,813,869,951,1049,1115,1183,1247,1320,1388"
+                    }
+                }
+            ]
+        }
+    ]
+}

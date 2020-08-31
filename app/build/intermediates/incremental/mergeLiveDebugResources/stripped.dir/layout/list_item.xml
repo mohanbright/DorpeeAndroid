@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatCheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/checkboxId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkbox"
+        android:checked="false"
+        android:textSize="@dimen/_12ssp"
+        android:lines="2"
+        android:paddingStart="@dimen/_4sdp"
+        android:text="asdaaasda"
+        android:ellipsize="end"
+        android:padding="@dimen/_2sdp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline16"
+        app:layout_constraintStart_toStartOf="@+id/guideline15" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

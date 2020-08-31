@@ -1,0 +1,1001 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:126:9-134:20
+	android:grantUriPermissions
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:130:13-47
+	android:authorities
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:128:13-60
+	android:exported
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:129:13-37
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:127:13-62
+manifest
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+MERGED from [com.github.skydoves:powerspinner:1.0.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fab9e188680aa4ac35553f1a010aa18c/jetified-powerspinner-1.0.8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:2:1-32:12
+MERGED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.databinding:viewbinding:4.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e365bad3e737db23aad19cab8c4e75e/jetified-viewbinding-4.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.mukeshsolanki:Google-Places-AutoComplete-EditText:0.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fa960134c461fc000bf02d2875d7d2de/jetified-Google-Places-AutoComplete-EditText-0.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2ab24bdfc1c523a625fbd0cb3031a1a5/constraintlayout-2.0.0-beta6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4b59a89a73ab6fafbb51c4ab5996f662/navigation-ui-ktx-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6318f4cb394d0a17eaefe87fa03d63d6/navigation-ui-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/245eeba801ffe20aa3d6dcc813cd56aa/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.zfdang.multiple-images-selector:multiple-images-selector:1.1.5] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8076a693e97c70674e8b9e6a14efe349/jetified-multiple-images-selector-1.1.5/AndroidManifest.xml:2:1-17:12
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/86dfa55571eb45ec5eb482c94241084d/jetified-anko-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/061640565ac53840bf9ad30ec122691c/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0fb1c1bc251bce55167241312d5c2874/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c4b6a186d58f1f40f6e274d660fd2c8b/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/57b4e1d945816d420d9d8ad2c47bb671/jetified-anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e5bdb6f30586ece14693a0ca2d3b4a52/jetified-appcompatV7-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/37f8c4dd40cae9c335785b1e6a0e88cd/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/023f54e56832f55ba5dfef1bee2bc421/jetified-navigation-dynamic-features-fragment-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a19775b74e8e1c3643639b9620d092b4/navigation-fragment-ktx-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/bba7c7b95451568f365be2f4cb2e5756/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5e361493d8e51cc46ff9f991dcf882cf/jetified-navigation-dynamic-features-runtime-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5173ac2e569cfc338910a6262718e2ca/navigation-runtime-ktx-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ab64a6ee8268141934d67344155a8463/navigation-common-ktx-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4586978d22099fef52d19e3792ce7d34/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fb02f1caad7485e3374cb20b3414750/jetified-core-ktx-1.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/df23371915922d127013655201aaad25/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [xyz.danoz:recyclerviewfastscroller:0.1.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cb5b2903ea93469507c2596feb4fc429/jetified-recyclerviewfastscroller-0.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a246ee18fba8dceab827a6ac278c4cd3/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/28f7f4cf156ad5faa230551b2f9aa299/jetified-picasso-transformations-2.2.1/AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6a7f8917ca02943b4b965b0006bbbde6/jetified-anko-coroutines-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f4c20f2e921b2d9f77a4c6c2fa8d4204/jetified-anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ead8fb612c5fad5826afc2641cd43bce/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d683876f5130693e98bf4ba21fb941e4/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e459fd69bd1030793398efd053d0561/jetified-sdp-android-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9095c89c30d8895b77e0fa3415d6aa6c/jetified-ssp-android-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e409cb0b62c04a69240a8d43d3b90c0/jetified-zxing-1.9.8/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1e94ce651861c7d904ced8902a67d67f/jetified-core-1.9.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ad0ca34a2993b2385ec27f10777aed70/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/282b5aa11a74ec4d1b7e4c618d80d772/jetified-anko-support-v4-commons-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/b018991b57e048606ca1b7bf01c97cc8/jetified-supportV4-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f8baa6864530d6b40a204ae5d1dfec66/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d29a87aa92e77910cbfbe84f3cf260c0/jetified-play-services-places-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/99982336b43acf6361002a483a5e5765/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c5570332ada679c938dd4a36399a0db3/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/30ae27f71dc58519093af0720ba592f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5907aaf35f562a2a5a7a642ac59011eb/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/26cf72bc9e48407b391fb7130a7d935c/navigation-fragment-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.0-alpha05] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c1563ffcebe24934ede0a0bfe7440159/fragment-1.3.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/591652584327da7c61dacf86e86430b4/jetified-readmoretextview-2.1.0/AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c2228f764ef4614afda94a1be7fba7f5/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.maps.android:android-maps-utils:1.3.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fdda25d055b78c94f7fba031fbe83ce/jetified-android-maps-utils-1.3.3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/03268be6bad48038bf524e5815ebce02/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/af29add26a5f67c7219d6f64b06a38ea/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f71d7dc39191d021f1770b7d2176cfcb/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ac06e3be626ac6f177c83aa3c2ad0ed8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/39d893ee71d090a56f402a8bdac8c4a3/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c016116914c2cc96fca7f212147f90c7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/806cd4b67264b44b11d4b92e828efd8d/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/84f29f6a0e2494d6bc34180d14d0469e/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/310239738060b6f8195ae7134f46b483/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d02c1dd1b5420f0f04cccec08ca490f7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/b9635e97b73493408356c15ec0f5fb80/navigation-runtime-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.0-alpha05] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9f0ee53ba011788886b6b3292f4fd41d/jetified-activity-1.2.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/beea7dcc8c2fff7c430e96ac23919ac2/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d98a69bf057dfb214ca977a95c151f6f/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f90313392d1419250703c38c9ccf6aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/37d751689cb5e0822a4e71b69c0663db/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-rc01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a064606022d2a9ce22b3de36f0f8fa2a/drawerlayout-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0-rc01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/02bef45d641d23606162d2fe01676675/customview-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/46c2ee308a9a97f4acb7c657f745a92c/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/645cdb246289278d10c826321f63609f/navigation-common-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/071c7be180247297141de3e5a2aa234c/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/72eda12ef84c81770126069755835daf/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9c6aaa4abfd143056d89ebb2be28e969/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7b86b03619b1b6992b4bc8069de54b35/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/800b6230b44b997d79b3627bcdf9794e/lifecycle-viewmodel-2.3.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2a1e17f94f42481e18b6182071e41e5c/jetified-savedstate-1.1.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/258cf73284cd72863fc38b7e3e9298f5/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fbee298f0bbdea7962769ccbd9ff9bb4/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93d1e8c028f96ec80f56fa462ac487ba/lifecycle-livedata-core-2.3.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a0f744b342950a53def520cb20d74b60/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5e08beb60b75792d3d4bdb26bc0b4f48/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cf6b4c3d9c125a3c2e9c0decfbce19f6/lifecycle-runtime-2.3.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4149538b20dece1ad6926e42ac95e620/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7522a317511b896357fb05378b56657c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/60a331346d24fd15f8b067fe7e9ea6fd/jetified-anko-sqlite-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7fe5ada9848c2902b3cf443006694cc0/jetified-anko-sdk27-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a7b262eed9cbcdd4f969f9babe461976/jetified-anko-commons-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e2058525ae81ed71771c64cc0787c4a7/jetified-sqlite-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7eeafcfd72f4e7f5b9d623ce3138b162/jetified-platform-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/dc29d42225b1cffa48b843c6e97ee5de/jetified-commons-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ce37ab89a843637de77553e179bc8844/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/94132b6fc8fcdf2c4bf76697761162da/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7f024e59f3910c53d9bf63c6f976ce5a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7ea681a69971a099b8d818f42e867a5e/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-api:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/960740d421185133c37c8d93efc3af73/jetified-transport-api-2.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1444a3f9c84b070c29c83d23412d8534/jetified-rxandroid-2.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.facebook.fresco:fresco:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8e9036066736628cea1f408b08a5e96f/jetified-fresco-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/52c9236d00956894f0465220e6ccb419/jetified-animated-gif-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-webp:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/950b4f13337917e4c5a573545ddebfe6/jetified-animated-webp-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:webpsupport:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/67daa605de91956a803d4a477fb000c4/jetified-webpsupport-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-base:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/636ccb45be25647171946757cd868d02/jetified-animated-base-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/18a3841d25f269ada1603477187fdbfc/jetified-animated-drawable-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e7fd8062e7b82cfcf171f20d83a0f63f/jetified-drawee-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f7b9ae600cb57d00ce1ce19d07e5e585/jetified-nativeimagefilters-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1aef79c04495a24d467b4bdeae5547ba/jetified-imagepipeline-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4e9d1966e932386115a7f454bb6d7a28/jetified-imagepipeline-base-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9b2d95666d3682c2423884a2d200e276/jetified-fbcore-1.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d7207975d0eccdb24e8b3ae58023c86b/jetified-soloader-0.5.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+	package
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:1-143:12
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:12:22-62
+uses-permission#android.hardware.camera
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:13:5-63
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:13:22-60
+uses-permission#android.hardware.camera.autofocus
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:14:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:16:5-98
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:16:22-95
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:17:22-76
+application
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:19:5-142:19
+MERGED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:11:5-30:19
+MERGED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:11:5-30:19
+MERGED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:11:5-18:19
+MERGED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:11:5-18:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2ab24bdfc1c523a625fbd0cb3031a1a5/constraintlayout-2.0.0-beta6/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2ab24bdfc1c523a625fbd0cb3031a1a5/constraintlayout-2.0.0-beta6/AndroidManifest.xml:9:5-20
+MERGED from [com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/245eeba801ffe20aa3d6dcc813cd56aa/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/245eeba801ffe20aa3d6dcc813cd56aa/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:28:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.zfdang.multiple-images-selector:multiple-images-selector:1.1.5] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8076a693e97c70674e8b9e6a14efe349/jetified-multiple-images-selector-1.1.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.zfdang.multiple-images-selector:multiple-images-selector:1.1.5] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8076a693e97c70674e8b9e6a14efe349/jetified-multiple-images-selector-1.1.5/AndroidManifest.xml:11:5-15:19
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/86dfa55571eb45ec5eb482c94241084d/jetified-anko-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/86dfa55571eb45ec5eb482c94241084d/jetified-anko-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/061640565ac53840bf9ad30ec122691c/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/061640565ac53840bf9ad30ec122691c/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0fb1c1bc251bce55167241312d5c2874/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0fb1c1bc251bce55167241312d5c2874/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/57b4e1d945816d420d9d8ad2c47bb671/jetified-anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/57b4e1d945816d420d9d8ad2c47bb671/jetified-anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6a7f8917ca02943b4b965b0006bbbde6/jetified-anko-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6a7f8917ca02943b4b965b0006bbbde6/jetified-anko-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f4c20f2e921b2d9f77a4c6c2fa8d4204/jetified-anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f4c20f2e921b2d9f77a4c6c2fa8d4204/jetified-anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e409cb0b62c04a69240a8d43d3b90c0/jetified-zxing-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e409cb0b62c04a69240a8d43d3b90c0/jetified-zxing-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1e94ce651861c7d904ced8902a67d67f/jetified-core-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1e94ce651861c7d904ced8902a67d67f/jetified-core-1.9.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ad0ca34a2993b2385ec27f10777aed70/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ad0ca34a2993b2385ec27f10777aed70/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/282b5aa11a74ec4d1b7e4c618d80d772/jetified-anko-support-v4-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/282b5aa11a74ec4d1b7e4c618d80d772/jetified-anko-support-v4-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d29a87aa92e77910cbfbe84f3cf260c0/jetified-play-services-places-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d29a87aa92e77910cbfbe84f3cf260c0/jetified-play-services-places-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/99982336b43acf6361002a483a5e5765/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/99982336b43acf6361002a483a5e5765/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c5570332ada679c938dd4a36399a0db3/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c5570332ada679c938dd4a36399a0db3/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/30ae27f71dc58519093af0720ba592f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/30ae27f71dc58519093af0720ba592f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5907aaf35f562a2a5a7a642ac59011eb/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5907aaf35f562a2a5a7a642ac59011eb/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c2228f764ef4614afda94a1be7fba7f5/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c2228f764ef4614afda94a1be7fba7f5/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.maps.android:android-maps-utils:1.3.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fdda25d055b78c94f7fba031fbe83ce/jetified-android-maps-utils-1.3.3/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.maps.android:android-maps-utils:1.3.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fdda25d055b78c94f7fba031fbe83ce/jetified-android-maps-utils-1.3.3/AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.core:core:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9c6aaa4abfd143056d89ebb2be28e969/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9c6aaa4abfd143056d89ebb2be28e969/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4149538b20dece1ad6926e42ac95e620/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4149538b20dece1ad6926e42ac95e620/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/60a331346d24fd15f8b067fe7e9ea6fd/jetified-anko-sqlite-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/60a331346d24fd15f8b067fe7e9ea6fd/jetified-anko-sqlite-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7fe5ada9848c2902b3cf443006694cc0/jetified-anko-sdk27-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7fe5ada9848c2902b3cf443006694cc0/jetified-anko-sdk27-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a7b262eed9cbcdd4f969f9babe461976/jetified-anko-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a7b262eed9cbcdd4f969f9babe461976/jetified-anko-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7ea681a69971a099b8d818f42e867a5e/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7ea681a69971a099b8d818f42e867a5e/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d7207975d0eccdb24e8b3ae58023c86b/jetified-soloader-0.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d7207975d0eccdb24e8b3ae58023c86b/jetified-soloader-0.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:10:3-17:17
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:28:9-45
+	android:requestLegacyExternalStorage
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:25:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:26:9-54
+	android:icon
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:29:9-40
+	android:logo
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:24:9-46
+	android:usesCleartextTraffic
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:20:9-54
+activity#com.droid.dorpee.ui.auth.ForgotPasswordActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:31:9-84
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:31:19-81
+activity#com.droid.dorpee.ui.venuedashboard.venueItem.VeneueWorksapceActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:32:9-89
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:32:19-86
+activity#com.droid.dorpee.ui.venuedashboard.venueItem.VenueDetailActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:33:9-85
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:33:19-82
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:42:9-44:48
+	android:value
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:43:13-58
+activity#com.droid.dorpee.ui.search.map.MapsActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:46:9-49:59
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:48:13-49
+	android:label
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:49:13-56
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:47:13-71
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.AddCardActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:51:9-53:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:52:13-94
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.Maps
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:54:9-57:59
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:55:13-67
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.AddContact
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:58:9-59:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:58:19-79
+activity#com.droid.dorpee.ui.venue.SuccessWorksapceActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:60:9-61:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:60:19-68
+activity#com.droid.dorpee.ui.booking.BookingActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:62:9-63:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:62:19-61
+activity#com.droid.dorpee.ui.search.DashboardActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:64:9-69:20
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:66:13-49
+	android:label
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:67:13-61
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:65:13-56
+nav-graph
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:68:13-72
+CONVERTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:68:13-72
+	android:value
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:68:24-69
+activity#com.droid.dorpee.ui.venue.AddWorkSpaceActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:70:9-71:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:70:19-64
+activity#com.droid.dorpee.ui.venue.EditWorkSpaceActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:72:9-73:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:72:19-65
+activity#com.droid.dorpee.ui.venuedashboard.venueItem.AvailabilityActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:74:9-75:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:74:19-83
+activity#com.droid.dorpee.ui.venuedashboard.venueItem.BlockOutActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:76:9-77:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:77:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:76:19-79
+activity#com.droid.dorpee.ui.venuedashboard.venueItem.PaymentDetailsActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:78:9-79:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:78:19-85
+activity#com.droid.dorpee.ui.venuedashboard.venueItem.StaticsActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:80:9-81:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:80:19-78
+activity#com.droid.dorpee.ui.venuedashboard.venueItem.MyVenueActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:82:9-83:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:83:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:82:19-78
+activity#com.droid.dorpee.ui.venuedashboard.venueItem.VenueBookingActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:84:9-85:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:84:19-83
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.SettingsActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:86:9-87:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:86:19-85
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.SearchPrefrencesActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:88:9-89:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:89:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:88:19-93
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.TopUpActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:90:9-91:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:90:19-82
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.DorpeePlanActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:92:9-93:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:92:19-87
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.AddressBookActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:94:9-95:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:95:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:94:19-88
+activity#com.droid.dorpee.ui.personaldashboard.personalItem.BookingsActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:96:9-97:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:96:19-85
+activity#com.droid.dorpee.ui.personaldashboard.PersonalDashboardActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:98:9-100:54
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:99:13-49
+	android:launchMode
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:100:21-52
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:98:19-81
+activity#com.droid.dorpee.ui.auth.PersonalAccountRegisterActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:101:9-102:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:101:19-74
+activity#com.droid.dorpee.ui.venue.RegisterVenueActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:103:9-104:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:104:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:103:19-65
+activity#com.droid.dorpee.ui.venue.EditVenueActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:105:9-106:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:105:19-61
+activity#com.droid.dorpee.ui.auth.ChooseCustomerTypeActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:107:9-108:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:107:19-69
+activity#com.droid.dorpee.ui.auth.RegisterActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:109:9-110:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:109:19-59
+activity#com.droid.dorpee.ui.venuedashboard.VenueDashboardActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:111:9-113:15
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:111:19-75
+activity#com.droid.dorpee.ui.auth.LoginActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:114:9-115:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:114:19-56
+activity#com.droid.dorpee.ui.auth.SplashActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:117:9-124:20
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:117:19-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:119:13-123:29
+action#android.intent.action.MAIN
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:120:17-69
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:120:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:122:17-77
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:122:27-74
+activity#com.zfdang.multiple_images_selector.ImagesSelectorActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:136:9-140:51
+	android:screenOrientation
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:139:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:140:13-48
+	android:configChanges
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:138:13-59
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:137:13-86
+activity#com.droid.dorpee.ui.search.ui.checkin.ScannerActivity
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:141:9-74
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:141:19-71
+uses-sdk
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+MERGED from [com.github.skydoves:powerspinner:1.0.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fab9e188680aa4ac35553f1a010aa18c/jetified-powerspinner-1.0.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:powerspinner:1.0.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fab9e188680aa4ac35553f1a010aa18c/jetified-powerspinner-1.0.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:viewbinding:4.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e365bad3e737db23aad19cab8c4e75e/jetified-viewbinding-4.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e365bad3e737db23aad19cab8c4e75e/jetified-viewbinding-4.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.mukeshsolanki:Google-Places-AutoComplete-EditText:0.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fa960134c461fc000bf02d2875d7d2de/jetified-Google-Places-AutoComplete-EditText-0.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mukeshsolanki:Google-Places-AutoComplete-EditText:0.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fa960134c461fc000bf02d2875d7d2de/jetified-Google-Places-AutoComplete-EditText-0.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2ab24bdfc1c523a625fbd0cb3031a1a5/constraintlayout-2.0.0-beta6/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2ab24bdfc1c523a625fbd0cb3031a1a5/constraintlayout-2.0.0-beta6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4b59a89a73ab6fafbb51c4ab5996f662/navigation-ui-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4b59a89a73ab6fafbb51c4ab5996f662/navigation-ui-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6318f4cb394d0a17eaefe87fa03d63d6/navigation-ui-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6318f4cb394d0a17eaefe87fa03d63d6/navigation-ui-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/245eeba801ffe20aa3d6dcc813cd56aa/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/245eeba801ffe20aa3d6dcc813cd56aa/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:7:5-44
+MERGED from [com.zfdang.multiple-images-selector:multiple-images-selector:1.1.5] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8076a693e97c70674e8b9e6a14efe349/jetified-multiple-images-selector-1.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zfdang.multiple-images-selector:multiple-images-selector:1.1.5] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8076a693e97c70674e8b9e6a14efe349/jetified-multiple-images-selector-1.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/86dfa55571eb45ec5eb482c94241084d/jetified-anko-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/86dfa55571eb45ec5eb482c94241084d/jetified-anko-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/061640565ac53840bf9ad30ec122691c/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/061640565ac53840bf9ad30ec122691c/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0fb1c1bc251bce55167241312d5c2874/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0fb1c1bc251bce55167241312d5c2874/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c4b6a186d58f1f40f6e274d660fd2c8b/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c4b6a186d58f1f40f6e274d660fd2c8b/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/57b4e1d945816d420d9d8ad2c47bb671/jetified-anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/57b4e1d945816d420d9d8ad2c47bb671/jetified-anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e5bdb6f30586ece14693a0ca2d3b4a52/jetified-appcompatV7-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e5bdb6f30586ece14693a0ca2d3b4a52/jetified-appcompatV7-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/37f8c4dd40cae9c335785b1e6a0e88cd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/37f8c4dd40cae9c335785b1e6a0e88cd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/023f54e56832f55ba5dfef1bee2bc421/jetified-navigation-dynamic-features-fragment-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/023f54e56832f55ba5dfef1bee2bc421/jetified-navigation-dynamic-features-fragment-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a19775b74e8e1c3643639b9620d092b4/navigation-fragment-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a19775b74e8e1c3643639b9620d092b4/navigation-fragment-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/bba7c7b95451568f365be2f4cb2e5756/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/bba7c7b95451568f365be2f4cb2e5756/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5e361493d8e51cc46ff9f991dcf882cf/jetified-navigation-dynamic-features-runtime-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5e361493d8e51cc46ff9f991dcf882cf/jetified-navigation-dynamic-features-runtime-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5173ac2e569cfc338910a6262718e2ca/navigation-runtime-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5173ac2e569cfc338910a6262718e2ca/navigation-runtime-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ab64a6ee8268141934d67344155a8463/navigation-common-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ab64a6ee8268141934d67344155a8463/navigation-common-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4586978d22099fef52d19e3792ce7d34/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4586978d22099fef52d19e3792ce7d34/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fb02f1caad7485e3374cb20b3414750/jetified-core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fb02f1caad7485e3374cb20b3414750/jetified-core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/df23371915922d127013655201aaad25/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/df23371915922d127013655201aaad25/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [xyz.danoz:recyclerviewfastscroller:0.1.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cb5b2903ea93469507c2596feb4fc429/jetified-recyclerviewfastscroller-0.1.3/AndroidManifest.xml:7:5-9:41
+MERGED from [xyz.danoz:recyclerviewfastscroller:0.1.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cb5b2903ea93469507c2596feb4fc429/jetified-recyclerviewfastscroller-0.1.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a246ee18fba8dceab827a6ac278c4cd3/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a246ee18fba8dceab827a6ac278c4cd3/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/28f7f4cf156ad5faa230551b2f9aa299/jetified-picasso-transformations-2.2.1/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/28f7f4cf156ad5faa230551b2f9aa299/jetified-picasso-transformations-2.2.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6a7f8917ca02943b4b965b0006bbbde6/jetified-anko-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6a7f8917ca02943b4b965b0006bbbde6/jetified-anko-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f4c20f2e921b2d9f77a4c6c2fa8d4204/jetified-anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f4c20f2e921b2d9f77a4c6c2fa8d4204/jetified-anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ead8fb612c5fad5826afc2641cd43bce/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ead8fb612c5fad5826afc2641cd43bce/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d683876f5130693e98bf4ba21fb941e4/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d683876f5130693e98bf4ba21fb941e4/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e459fd69bd1030793398efd053d0561/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e459fd69bd1030793398efd053d0561/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9095c89c30d8895b77e0fa3415d6aa6c/jetified-ssp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9095c89c30d8895b77e0fa3415d6aa6c/jetified-ssp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e409cb0b62c04a69240a8d43d3b90c0/jetified-zxing-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/0e409cb0b62c04a69240a8d43d3b90c0/jetified-zxing-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1e94ce651861c7d904ced8902a67d67f/jetified-core-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1e94ce651861c7d904ced8902a67d67f/jetified-core-1.9.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ad0ca34a2993b2385ec27f10777aed70/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ad0ca34a2993b2385ec27f10777aed70/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/282b5aa11a74ec4d1b7e4c618d80d772/jetified-anko-support-v4-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/282b5aa11a74ec4d1b7e4c618d80d772/jetified-anko-support-v4-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/b018991b57e048606ca1b7bf01c97cc8/jetified-supportV4-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/b018991b57e048606ca1b7bf01c97cc8/jetified-supportV4-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f8baa6864530d6b40a204ae5d1dfec66/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f8baa6864530d6b40a204ae5d1dfec66/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d29a87aa92e77910cbfbe84f3cf260c0/jetified-play-services-places-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d29a87aa92e77910cbfbe84f3cf260c0/jetified-play-services-places-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/99982336b43acf6361002a483a5e5765/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/99982336b43acf6361002a483a5e5765/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c5570332ada679c938dd4a36399a0db3/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c5570332ada679c938dd4a36399a0db3/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/30ae27f71dc58519093af0720ba592f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/30ae27f71dc58519093af0720ba592f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5907aaf35f562a2a5a7a642ac59011eb/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5907aaf35f562a2a5a7a642ac59011eb/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/26cf72bc9e48407b391fb7130a7d935c/navigation-fragment-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/26cf72bc9e48407b391fb7130a7d935c/navigation-fragment-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha05] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c1563ffcebe24934ede0a0bfe7440159/fragment-1.3.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha05] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c1563ffcebe24934ede0a0bfe7440159/fragment-1.3.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/591652584327da7c61dacf86e86430b4/jetified-readmoretextview-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/591652584327da7c61dacf86e86430b4/jetified-readmoretextview-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c2228f764ef4614afda94a1be7fba7f5/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c2228f764ef4614afda94a1be7fba7f5/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:1.3.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fdda25d055b78c94f7fba031fbe83ce/jetified-android-maps-utils-1.3.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.maps.android:android-maps-utils:1.3.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fdda25d055b78c94f7fba031fbe83ce/jetified-android-maps-utils-1.3.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/03268be6bad48038bf524e5815ebce02/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/03268be6bad48038bf524e5815ebce02/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/af29add26a5f67c7219d6f64b06a38ea/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/af29add26a5f67c7219d6f64b06a38ea/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f71d7dc39191d021f1770b7d2176cfcb/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f71d7dc39191d021f1770b7d2176cfcb/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ac06e3be626ac6f177c83aa3c2ad0ed8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ac06e3be626ac6f177c83aa3c2ad0ed8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/39d893ee71d090a56f402a8bdac8c4a3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/39d893ee71d090a56f402a8bdac8c4a3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c016116914c2cc96fca7f212147f90c7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/c016116914c2cc96fca7f212147f90c7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/806cd4b67264b44b11d4b92e828efd8d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/806cd4b67264b44b11d4b92e828efd8d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/84f29f6a0e2494d6bc34180d14d0469e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/84f29f6a0e2494d6bc34180d14d0469e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/310239738060b6f8195ae7134f46b483/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/310239738060b6f8195ae7134f46b483/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d02c1dd1b5420f0f04cccec08ca490f7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d02c1dd1b5420f0f04cccec08ca490f7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/b9635e97b73493408356c15ec0f5fb80/navigation-runtime-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/b9635e97b73493408356c15ec0f5fb80/navigation-runtime-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha05] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9f0ee53ba011788886b6b3292f4fd41d/jetified-activity-1.2.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha05] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9f0ee53ba011788886b6b3292f4fd41d/jetified-activity-1.2.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/beea7dcc8c2fff7c430e96ac23919ac2/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/beea7dcc8c2fff7c430e96ac23919ac2/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d98a69bf057dfb214ca977a95c151f6f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d98a69bf057dfb214ca977a95c151f6f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f90313392d1419250703c38c9ccf6aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f90313392d1419250703c38c9ccf6aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/37d751689cb5e0822a4e71b69c0663db/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/37d751689cb5e0822a4e71b69c0663db/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-rc01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a064606022d2a9ce22b3de36f0f8fa2a/drawerlayout-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-rc01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a064606022d2a9ce22b3de36f0f8fa2a/drawerlayout-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0-rc01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/02bef45d641d23606162d2fe01676675/customview-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0-rc01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/02bef45d641d23606162d2fe01676675/customview-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/46c2ee308a9a97f4acb7c657f745a92c/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/46c2ee308a9a97f4acb7c657f745a92c/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/645cdb246289278d10c826321f63609f/navigation-common-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0-beta01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/645cdb246289278d10c826321f63609f/navigation-common-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/071c7be180247297141de3e5a2aa234c/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/071c7be180247297141de3e5a2aa234c/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/72eda12ef84c81770126069755835daf/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/72eda12ef84c81770126069755835daf/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9c6aaa4abfd143056d89ebb2be28e969/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9c6aaa4abfd143056d89ebb2be28e969/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7b86b03619b1b6992b4bc8069de54b35/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7b86b03619b1b6992b4bc8069de54b35/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/800b6230b44b997d79b3627bcdf9794e/lifecycle-viewmodel-2.3.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/800b6230b44b997d79b3627bcdf9794e/lifecycle-viewmodel-2.3.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2a1e17f94f42481e18b6182071e41e5c/jetified-savedstate-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/2a1e17f94f42481e18b6182071e41e5c/jetified-savedstate-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/258cf73284cd72863fc38b7e3e9298f5/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/258cf73284cd72863fc38b7e3e9298f5/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fbee298f0bbdea7962769ccbd9ff9bb4/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/fbee298f0bbdea7962769ccbd9ff9bb4/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93d1e8c028f96ec80f56fa462ac487ba/lifecycle-livedata-core-2.3.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93d1e8c028f96ec80f56fa462ac487ba/lifecycle-livedata-core-2.3.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a0f744b342950a53def520cb20d74b60/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a0f744b342950a53def520cb20d74b60/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5e08beb60b75792d3d4bdb26bc0b4f48/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/5e08beb60b75792d3d4bdb26bc0b4f48/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cf6b4c3d9c125a3c2e9c0decfbce19f6/lifecycle-runtime-2.3.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha03] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cf6b4c3d9c125a3c2e9c0decfbce19f6/lifecycle-runtime-2.3.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4149538b20dece1ad6926e42ac95e620/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4149538b20dece1ad6926e42ac95e620/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7522a317511b896357fb05378b56657c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7522a317511b896357fb05378b56657c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/60a331346d24fd15f8b067fe7e9ea6fd/jetified-anko-sqlite-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/60a331346d24fd15f8b067fe7e9ea6fd/jetified-anko-sqlite-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7fe5ada9848c2902b3cf443006694cc0/jetified-anko-sdk27-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7fe5ada9848c2902b3cf443006694cc0/jetified-anko-sdk27-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a7b262eed9cbcdd4f969f9babe461976/jetified-anko-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/a7b262eed9cbcdd4f969f9babe461976/jetified-anko-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e2058525ae81ed71771c64cc0787c4a7/jetified-sqlite-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e2058525ae81ed71771c64cc0787c4a7/jetified-sqlite-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7eeafcfd72f4e7f5b9d623ce3138b162/jetified-platform-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7eeafcfd72f4e7f5b9d623ce3138b162/jetified-platform-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/dc29d42225b1cffa48b843c6e97ee5de/jetified-commons-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/dc29d42225b1cffa48b843c6e97ee5de/jetified-commons-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ce37ab89a843637de77553e179bc8844/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/ce37ab89a843637de77553e179bc8844/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/94132b6fc8fcdf2c4bf76697761162da/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/94132b6fc8fcdf2c4bf76697761162da/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7f024e59f3910c53d9bf63c6f976ce5a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7f024e59f3910c53d9bf63c6f976ce5a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7ea681a69971a099b8d818f42e867a5e/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/7ea681a69971a099b8d818f42e867a5e/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.datatransport:transport-api:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/960740d421185133c37c8d93efc3af73/jetified-transport-api-2.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/960740d421185133c37c8d93efc3af73/jetified-transport-api-2.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1444a3f9c84b070c29c83d23412d8534/jetified-rxandroid-2.1.0/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1444a3f9c84b070c29c83d23412d8534/jetified-rxandroid-2.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.facebook.fresco:fresco:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8e9036066736628cea1f408b08a5e96f/jetified-fresco-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8e9036066736628cea1f408b08a5e96f/jetified-fresco-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/52c9236d00956894f0465220e6ccb419/jetified-animated-gif-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/52c9236d00956894f0465220e6ccb419/jetified-animated-gif-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/950b4f13337917e4c5a573545ddebfe6/jetified-animated-webp-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/950b4f13337917e4c5a573545ddebfe6/jetified-animated-webp-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/67daa605de91956a803d4a477fb000c4/jetified-webpsupport-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/67daa605de91956a803d4a477fb000c4/jetified-webpsupport-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/636ccb45be25647171946757cd868d02/jetified-animated-base-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/636ccb45be25647171946757cd868d02/jetified-animated-base-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/18a3841d25f269ada1603477187fdbfc/jetified-animated-drawable-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/18a3841d25f269ada1603477187fdbfc/jetified-animated-drawable-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e7fd8062e7b82cfcf171f20d83a0f63f/jetified-drawee-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/e7fd8062e7b82cfcf171f20d83a0f63f/jetified-drawee-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f7b9ae600cb57d00ce1ce19d07e5e585/jetified-nativeimagefilters-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f7b9ae600cb57d00ce1ce19d07e5e585/jetified-nativeimagefilters-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1aef79c04495a24d467b4bdeae5547ba/jetified-imagepipeline-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1aef79c04495a24d467b4bdeae5547ba/jetified-imagepipeline-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4e9d1966e932386115a7f454bb6d7a28/jetified-imagepipeline-base-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/4e9d1966e932386115a7f454bb6d7a28/jetified-imagepipeline-base-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9b2d95666d3682c2423884a2d200e276/jetified-fbcore-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.11.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9b2d95666d3682c2423884a2d200e276/jetified-fbcore-1.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d7207975d0eccdb24e8b3ae58023c86b/jetified-soloader-0.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d7207975d0eccdb24e8b3ae58023c86b/jetified-soloader-0.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:4:3-70
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:131:13-133:58
+	android:resource
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:133:17-55
+	android:name
+		ADDED from /Users/brightdev/StudioWorkspace/Dorpee/app/src/main/AndroidManifest.xml:132:17-67
+activity#com.stripe.android.view.AddPaymentMethodActivity
+ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:12:9-14:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:14:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:13:13-76
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:15:9-17:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:17:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:16:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:18:9-20:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:20:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:19:13-71
+activity#com.stripe.android.view.PaymentAuthWebViewActivity
+ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:21:9-23:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:23:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:22:13-78
+activity#com.stripe.android.view.PaymentRelayActivity
+ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:24:9-26:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:26:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:25:13-72
+activity#com.stripe.android.view.Stripe3ds2CompletionActivity
+ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:27:9-29:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:29:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.4.1] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/3ae9c7536cf1215b55688e0dc636a89c/jetified-stripe-android-14.4.1/AndroidManifest.xml:28:13-80
+activity#com.stripe.android.stripe3ds2.views.ChallengeActivity
+ADDED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:12:9-14:54
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:14:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:13:13-81
+activity#com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity
+ADDED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:15:9-17:54
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:17:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:2.7.8] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/f222591e48b0eb9f1945bf91d99a94a9/jetified-stripe-3ds2-android-2.7.8/AndroidManifest.xml:16:13-95
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/d4eb8c8b198258649d992b2145f3bcad/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:4.2.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/528ae94e93b8408ebfe54063b1e87114/jetified-materialdatetimepicker-4.2.3/AndroidManifest.xml:26:22-63
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:10:22-73
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:14:9-20:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:17:13-62
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:18:13-61
+	android:name
+		ADDED from [com.google.android.libraries.places:places:2.3.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/9ccda772dcc077f4e9eefed88bdd0a07/jetified-places-2.3.0/AndroidManifest.xml:15:13-91
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/09f56ae7b347e428ff22a4c582f6253d/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1ed91c416d5d8ef504b2f7828cfc3ffa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6c8a8f42f8644f9c1e66f9113f89f212/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:1.3.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fdda25d055b78c94f7fba031fbe83ce/jetified-android-maps-utils-1.3.3/AndroidManifest.xml:12:9-14:69
+MERGED from [com.google.maps.android:android-maps-utils:1.3.3] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/1fdda25d055b78c94f7fba031fbe83ce/jetified-android-maps-utils-1.3.3/AndroidManifest.xml:12:9-14:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/cc2c16651f3bb34f938559c5c278a056/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/6d0955dc90a74a128fecf6af4fab2dcd/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/93db5c84a1023f5599512c9a233589be/jetified-transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/21181b20135799ce5b0e8d627b778fae/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:8:3-74
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:8:20-72
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:16:5-145
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] /Users/brightdev/.gradle/caches/transforms-2/files-2.1/8f6ff2f679eeb31803331802666c1adc/jetified-core-1.7.2/AndroidManifest.xml:16:14-95
