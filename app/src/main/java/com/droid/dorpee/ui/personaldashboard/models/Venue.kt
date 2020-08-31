@@ -1,0 +1,41 @@
+package com.droid.dorpee.ui.personaldashboard.models
+
+import java.io.Serializable
+
+data class Venue(
+    val address: String,
+    val average_rating: Int,
+    val bonus_offer: String,
+    val capacity: Any,
+    val country: String,
+    val created_at: String,
+    val deleted_at: Any,
+    val description: String,
+    val distance_from_city: String,
+    val email: Any,
+    val featured: Any,
+    val id: Int,
+    val images: List<String>,
+    val images_link: String,
+    val lat: String?,
+    val lng: String?,
+    val lowest_price: String,
+    val media: List<MediaX>,
+    val name: String?,
+    val phone_number: Any,
+    val photos: List<Any>,
+    val postcode: String,
+    val price: Any,
+    val slug: String,
+    val state: String,
+    val status: String,
+    val suburb: String,
+    val total_available: Int,
+    val total_reviews: Int,
+    val updated_at: String,
+    val uploaded_images: List<UploadedImageX>,
+    val user_id: Int,
+    val venue_type_id: Int,
+    val venue_id: Int,
+    val workspace_count: Int
+) : Serializable
