@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.droid.dorpee.ui.search.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_advance_search"
+            app:destination="@id/navigation_advance_search" />
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_login"
+            app:destination="@id/navigation_login" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_booking"
+        android:name="com.droid.dorpee.ui.search.ui.booking.BookingPersonalFragment"
+        android:label="@string/title_booking"
+        tools:layout="@layout/fragment_booking" >
+        <action
+            android:id="@+id/action_navigation_booking_to_venueDashFragment"
+            app:destination="@id/venueDashFragment" />
+        <action
+            android:id="@+id/action_navigation_booking_to_personalDashFragment"
+            app:destination="@id/personalDashFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_check_in"
+        android:name="com.droid.dorpee.ui.search.ui.checkin.CheckInFragment"
+        android:label="@string/title_checkin"
+        tools:layout="@layout/fragment_checkin" >
+        <action
+            android:id="@+id/action_navigation_check_in_to_personalDashFragment"
+            app:destination="@id/personalDashFragment" />
+        <action
+            android:id="@+id/action_navigation_check_in_to_venueDashFragment"
+            app:destination="@id/venueDashFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_advance_search"
+        android:name="com.droid.dorpee.ui.search.ui.search.AdvanceSearchFragment"
+        android:label="fragment_advance_search"
+        tools:layout="@layout/fragment_advance_search">
+        <action
+            android:id="@+id/action_cancel_search"
+            app:destination="@id/navigation_search" />
+        <action
+            android:id="@+id/action_search_result"
+            app:destination="@id/navigation_search_result" />
+        <action
+            android:id="@+id/action_navigation_advance_search_to_personalDashFragment"
+            app:destination="@id/personalDashFragment" />
+        <action
+            android:id="@+id/action_navigation_advance_search_to_venueDashFragment"
+            app:destination="@id/venueDashFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_search_result"
+        android:name="com.droid.dorpee.ui.search.ui.search.SearchResultFragment"
+        android:label="SearchResultFragment">
+        <action
+            android:id="@+id/action_back_advance_search"
+            app:destination="@id/navigation_advance_search" />
+        <action
+            android:id="@+id/action_venue_detail"
+            app:destination="@id/navigation_venue_detail" />
+        <argument
+            android:name="searchData"
+            android:defaultValue="@null"
+            app:argType="com.droid.dorpee.ui.search.model.SearchResponse"
+            app:nullable="true" />
+        <argument
+            android:name="searchCondition"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_venue_detail"
+        android:name="com.droid.dorpee.ui.search.ui.search.VenueDetailsFragment"
+        android:label="VenueDetailsFragment" >
+        <action
+            android:id="@+id/action_back_venue_detail"
+            app:destination="@id/navigation_search_result" />
+        <argument
+            android:name="venueData"
+            android:defaultValue="@null"
+            app:argType="com.droid.dorpee.ui.search.model.Data"
+            app:nullable="true" />
+        <argument
+            android:name="searchCondition"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.droid.dorpee.ui.auth.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/venueDashFragment"
+        android:name="com.droid.dorpee.ui.dashboardnavigation.VenueDashFragment"
+        android:label="fragment_venue_dash"
+        tools:layout="@layout/fragment_venue_dash" />
+    <fragment
+        android:id="@+id/personalDashFragment"
+        android:name="com.droid.dorpee.ui.dashboardnavigation.PersonalDashFragment"
+        android:label="fragment_personal_dash"
+        tools:layout="@layout/fragment_personal_dash" />
+    <fragment
+        android:id="@+id/navigation_bookingVenue"
+        android:name="com.droid.dorpee.ui.search.ui.booking.BookingVenueFragment"
+        android:label="fragment_booking_venue"
+        tools:layout="@layout/fragment_booking_venue" >
+        <action
+            android:id="@+id/action_bookingVenueFragment_to_venueDashFragment"
+            app:destination="@id/venueDashFragment" />
+        <action
+            android:id="@+id/action_bookingVenueFragment_to_personalDashFragment"
+            app:destination="@id/personalDashFragment" />
+    </fragment>
+</navigation>

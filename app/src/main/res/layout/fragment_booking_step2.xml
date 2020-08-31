@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.booking.frags.BookingStep1Fragment">
+
+
+        <ImageView
+            android:id="@+id/imageViewSpace"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:src="@drawable/download"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:text="Hotdesk"
+            app:layout_constraintStart_toEndOf="@+id/imageViewSpace"
+            app:layout_constraintTop_toTopOf="@+id/imageViewSpace" />
+
+        <TextView
+            android:id="@+id/textViewAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:text="At Waterman"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintStart_toStartOf="@+id/textViewName"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="@+id/textViewAt"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAt">
+
+            <TextView
+                android:id="@+id/textViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_blue"
+                android:backgroundTint="@color/colorDark"
+                android:elevation="@dimen/_2sdp"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="10"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:text="@string/per_hour"
+                android:textSize="@dimen/_10ssp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:text="INVITE TEAM"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageViewSpace"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewSpace" />
+
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:background="@drawable/square_btn"
+            android:drawableEnd="@drawable/ic_arrow_forward"
+            android:text="@string/next"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_invite_error" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:text="May 19 - 4:00pm - 5:00pm"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/linearLayoutCompat9"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat9" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView71"
+            app:layout_constraintTop_toBottomOf="@+id/textView71"
+            app:tabIndicatorColor="@color/colorDark">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teams" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contacts" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/container_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="@id/tabLayout"
+            app:layout_constraintStart_toStartOf="@id/tabLayout"
+            app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/container_2"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            app:layout_constraintEnd_toEndOf="@id/tabLayout"
+            app:layout_constraintStart_toStartOf="@id/tabLayout"
+            app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
+
+        <TextView
+            android:id="@+id/tv_invite_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingHorizontal="@dimen/_6sdp"
+            android:visibility="gone"
+            android:textColor="@color/colorError"
+            android:text="@string/number_of_invited_people_has_exceeded_space_capacity"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintStart_toEndOf="@+id/container_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/buttonCredit" />
+
+
+        <Button
+            android:id="@+id/buttonCredit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/gray_all_background"
+            android:paddingStart="@dimen/_12sdp"
+            android:visibility="gone"
+            android:paddingEnd="@dimen/_12sdp"
+            android:text="@string/add_contact"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/container_1"
+            app:layout_constraintTop_toBottomOf="@+id/container_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

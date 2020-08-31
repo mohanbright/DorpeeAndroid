@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_background">
+
+    <TextView
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@drawable/circle_blue"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_arrow_back"
+        android:elevation="@dimen/_4sdp"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_4sdp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/alertView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:elevation="@dimen/_8sdp"
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewNext"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_100sdp"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:background="@drawable/circle_view"
+                android:elevation="@dimen/_6sdp"
+                android:rotation="90"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/materialCardView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/materialCardView3"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/ic_arrow_drop_up" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/materialCardView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_4sdp"
+                app:cardElevation="@dimen/_4sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.droid.dorpee.utils.ClickableViewPager
+                        android:id="@+id/imageViewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_200sdp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:srcCompat="@drawable/placeholder" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:layout_marginEnd="@dimen/_2sdp"
+                        android:padding="@dimen/_8sdp">
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:id="@+id/layour"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="@dimen/_4sdp"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toStartOf="@+id/textViewFrom"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintHorizontal_chainStyle="packed"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textViewHotel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_marginEnd="@dimen/_20sdp"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:singleLine="true"
+                                android:text="Watermanasdsas"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12ssp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageViewSheild"
+                                android:layout_width="@dimen/_14sdp"
+                                android:layout_height="@dimen/_14sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_minus14sdp"
+                                app:layout_constraintBottom_toBottomOf="@+id/layour"
+                                app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat9"
+                                app:layout_constraintStart_toEndOf="@+id/layour"
+                                app:layout_constraintTop_toTopOf="@+id/layour"
+                                app:srcCompat="@drawable/ic_shield"
+                                tools:visibility="visible" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:id="@+id/linearLayoutCompat9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textViewPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/circle_blue"
+                                android:backgroundTint="@color/colorDark"
+                                android:gravity="center"
+                                android:padding="@dimen/_4sdp"
+                                android:text="10"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_9ssp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_2sdp"
+                                android:text="@string/per_hour"
+                                android:textSize="@dimen/_9ssp" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <TextView
+                            android:id="@+id/textViewRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_star"
+                            android:drawablePadding="@dimen/_2sdp"
+                            android:text="4.56 (6)"
+                            android:textSize="@dimen/_10ssp"
+                            app:layout_constraintEnd_toEndOf="@+id/layour"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/layour"
+                            app:layout_constraintTop_toBottomOf="@+id/layour" />
+
+                        <TextView
+                            android:id="@+id/textViewFrom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_4sdp"
+                            android:text="@string/from"
+                            android:textSize="@dimen/_9ssp"
+                            app:layout_constraintBottom_toBottomOf="@+id/linearLayoutCompat9"
+                            app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat9"
+                            app:layout_constraintTop_toTopOf="@+id/linearLayoutCompat9" />
+
+                        <TextView
+                            android:id="@+id/textViewAddress"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8sdp"
+                            android:clickable="true"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="@dimen/_8sdp"
+                            android:focusable="true"
+                            android:text="The Journal Cafe, 253 Flinders Ln, Melbourne VIC 3000"
+                            app:layout_constraintEnd_toEndOf="@+id/linearLayoutCompat9"
+                            app:layout_constraintStart_toStartOf="@+id/textViewRating"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewRating" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_12sdp"
+                            android:text="About"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="@+id/textViewAddress"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewAddress" />
+
+                        <TextView
+                            android:id="@+id/textViewAbout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            app:layout_constraintEnd_toEndOf="@+id/textViewAddress"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/textViewAddress"
+                            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+                        <TextView
+                            android:id="@+id/textView80"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            android:text="Amenities"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="@+id/textViewAbout"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewAbout" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/amenitieRecycler"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8sdp"
+                            app:layout_constraintEnd_toEndOf="@+id/textViewAbout"
+                            app:layout_constraintStart_toStartOf="@+id/textView80"
+                            app:layout_constraintTop_toBottomOf="@+id/textView80"
+                            tools:listitem="@layout/amenitie_item_search" />
+
+                        <ImageView
+                            android:id="@+id/imageViewAvailvility"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:padding="@dimen/_4sdp"
+                            app:layout_constraintBottom_toTopOf="@+id/textViewAbout"
+                            app:layout_constraintEnd_toEndOf="@+id/textViewAddress"
+                            app:layout_constraintTop_toTopOf="@+id/textView78"
+                            app:srcCompat="@drawable/ic_clock_light" />
+
+                        <androidx.core.widget.ContentLoadingProgressBar
+                            android:id="@+id/loginLoader"
+                            style="?android:progressBarStyleLarge"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/circle_view"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:elevation="@dimen/_4sdp"
+                            android:indeterminate="true"
+                            android:indeterminateTint="@color/colorWhite"
+                            android:indeterminateTintMode="src_atop"
+                            android:padding="@dimen/_6sdp"
+                            android:visibility="visible"
+                            app:layout_constraintBottom_toBottomOf="@+id/amenitieRecycler"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/textViewAddress" />
+
+                        <TextView
+                            android:id="@+id/textViewShowmOre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_16sdp"
+                            android:text="show more"
+                            android:textColor="@color/blue"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:paddingTop="@dimen/_4sdp"
+                            android:paddingStart="@dimen/_8sdp"
+                            android:paddingEnd="@dimen/_8sdp"
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:visibility="gone"
+                            android:background="@drawable/border_round"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/amenitieRecycler"
+                            app:layout_constraintStart_toStartOf="@+id/amenitieRecycler"
+                            app:layout_constraintTop_toBottomOf="@+id/amenitieRecycler" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/available_workspaces"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/materialCardView3" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/workspaceRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView81"
+                tools:itemCount="2"
+                tools:listitem="@layout/item_search_workspace" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

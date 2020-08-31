@@ -1,0 +1,186 @@
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.droid.dorpee.ui.venuedashboard.fragments.BlockoutTimeFragment">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".04" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".96" />
+
+
+        <com.skydoves.powerspinner.PowerSpinnerView
+            android:id="@+id/spinnerVenues"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:background="@drawable/spinner_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:hint="Select Venue"
+            android:padding="@dimen/_12ssp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline16"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline15"
+            app:layout_constraintTop_toTopOf="parent"
+            app:spinner_arrow_gravity="end"
+            app:spinner_arrow_padding="@dimen/_8sdp"
+            app:spinner_arrow_show="false"
+            app:spinner_popup_animation="dropdown"
+            app:spinner_popup_background="@color/white" />
+
+        <com.skydoves.powerspinner.PowerSpinnerView
+            android:id="@+id/spinnerSpace"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/spinner_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:hint="Select Workspace"
+            android:padding="@dimen/_12ssp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline16"
+            app:layout_constraintStart_toStartOf="@+id/guideline15"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerVenues"
+            app:spinner_arrow_gravity="end"
+            app:spinner_arrow_padding="@dimen/_8sdp"
+            app:spinner_arrow_show="false"
+            app:spinner_popup_animation="dropdown"
+            app:spinner_popup_background="@color/white" />
+
+        <com.skydoves.powerspinner.PowerSpinnerView
+            android:id="@+id/spinnerDays"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/spinner_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:hint="@string/select_day"
+            android:padding="@dimen/_12ssp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline16"
+            app:layout_constraintStart_toStartOf="@+id/guideline15"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerSpace"
+            app:spinner_arrow_gravity="end"
+            app:spinner_arrow_padding="@dimen/_8sdp"
+            app:spinner_arrow_show="false"
+            app:spinner_popup_animation="dropdown"
+            app:spinner_popup_background="@color/white" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/availibilityRecycler"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/guideline16"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline15"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:itemCount="4"
+            tools:listitem="@layout/availabilty_item" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/addConstraintBlockOut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/square_btn_blue"
+            android:clickable="true"
+            android:elevation="@dimen/_4sdp"
+            android:focusable="true"
+            android:onClick="onClick"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline16"
+            app:layout_constraintStart_toStartOf="@+id/guideline15"
+            app:layout_constraintTop_toBottomOf="@+id/availibilityRecycler"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/addCardBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:gravity="center_vertical"
+                android:text="@string/update_changes"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_14ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/time"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/guideline15"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerDays" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/available_workspaces"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/guideline16"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerDays" />
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/loginLoader"
+            style="?android:progressBarStyleLarge"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/circle_view"
+            android:backgroundTint="@color/colorPrimary"
+            android:elevation="@dimen/_4sdp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorWhite"
+            android:indeterminateTintMode="src_atop"
+            android:padding="@dimen/_8sdp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/addConstraintBlockOut"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/addConstraintBlockOut" />
+
+        <TextView
+            android:id="@+id/textViewMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_data"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toTopOf="@+id/addConstraintBlockOut"
+            app:layout_constraintEnd_toEndOf="@+id/availibilityRecycler"
+            app:layout_constraintStart_toStartOf="@+id/guideline15"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

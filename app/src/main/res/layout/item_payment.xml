@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp">
+
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="**** **** **** 2343"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/textView47"
+            app:layout_constraintEnd_toStartOf="@id/imageViewEdit"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/textView47"
+            app:layout_constraintTop_toTopOf="@id/textView47"
+            app:layout_constraintWidth_percent=".7" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:text="Credit Card :"
+            app:layout_constraintEnd_toStartOf="@id/cardType"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cardType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Visa"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/textView46"
+            app:layout_constraintEnd_toStartOf="@id/imageViewEdit"
+            app:layout_constraintStart_toEndOf="@id/textView46"
+            app:layout_constraintTop_toTopOf="@id/textView46"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageViewCancel"
+            android:layout_width="@dimen/_34sdp"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:padding="@dimen/_8sdp"
+            android:tint="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/gray_all_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imageViewEdit"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintWidth_percent=".15"
+            app:srcCompat="@drawable/ic_close" />
+
+        <ImageView
+            android:id="@+id/imageViewEdit"
+            android:layout_width="@dimen/_34sdp"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:background="@drawable/blue_all_background"
+            android:padding="@dimen/_10sdp"
+            android:tint="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="@id/imageViewCancel"
+            app:layout_constraintEnd_toStartOf="@id/imageViewCancel"
+            app:layout_constraintStart_toEndOf="@id/cardType"
+            app:layout_constraintTop_toTopOf="@id/imageViewCancel"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintWidth_percent=".15"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number :"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/textView46"
+            app:layout_constraintTop_toBottomOf="@id/textView46" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/autocompleteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_8sdp"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:drawableTint="@android:color/tertiary_text_dark"
+        android:drawableStart="@drawable/ic_location" />
+
+    <ImageView
+        android:id="@+id/footerImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/powered_by_google"
+        android:visibility="gone" />
+</RelativeLayout>
